@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Service1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "icon": "fi fi-puzzle"
+  },
+  {
+    "name": "Service2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "icon": "fi fi-puzzle"
+  },
+  {
+    "name": "Service3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "icon": "fi fi-puzzle"
+  }
+]
