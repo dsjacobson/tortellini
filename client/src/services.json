@@ -2,16 +2,76 @@
   {
     "name": "Service1",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-    "icon": "fi fi-puzzle"
+    "icon": "fi fi-puzzle",
+    "backgroundImage": "http://via.placeholder.com/1900x300",
+    "content": {
+      "sectionTitle": "",
+      "sectionContent": "",
+      "titleTwo": "",
+      "contentTwo": "",
+      "ctaMessage": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet"
+    },
+    "secondaryServices": {
+      "secServiceOne": "Sec Category 1",
+      "secIconOne": "fi-graph-trend",
+      "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
+      "secServiceTwo": "Sec Category 2",
+      "secIconTwo": "fi-grpah-bar",
+      "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
+      "secServiceThree": "Sec Category 3",
+      "secIconThree": "fi-html5",
+      "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet."
+    }
   },
   {
     "name": "Service2",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-    "icon": "fi fi-puzzle"
+    "icon": "fi-grpah-bar",
+    "backgroundImage": "http://via.placeholder.com/1900x300",
+    "content": {
+      "sectionTitle": "",
+      "sectionContent": "",
+      "titleTwo": "",
+      "contentTwo": "",
+      "ctaMessage": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet"
+    },
+    "secondaryServices": {
+      "secServiceOne": "Sec Category 1",
+      "secIconOne": "fi-graph-trend",
+      "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
+      "secServiceTwo": "Sec Category 2",
+      "secIconTwo": "fi-grpah-bar",
+      "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
+      "secServiceThree": "Sec Category 3",
+      "secIconThree": "fi-html5",
+      "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet."
+    }
+
   },
   {
     "name": "Service3",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-    "icon": "fi fi-puzzle"
+    "icon": "fi fi-puzzle",
+    "backgroundImage": "http://via.placeholder.com/1900x300",
+    "content": {
+      "sectionTitle": "",
+      "sectionContent": "",
+      "titleTwo": "",
+      "contentTwo": "",
+      "ctaMessage": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet"
+
+    },
+    "secondaryServices": {
+      "secServiceOne": "Sec Category 1",
+      "secIconOne": "fi-graph-trend",
+      "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
+      "secServiceTwo": "Sec Category 2",
+      "secIconTwo": "fi-grpah-bar",
+      "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
+      "secServiceThree": "Sec Category 3",
+      "secIconThree": "fi-html5",
+      "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet."
+    }
+
   }
 ]

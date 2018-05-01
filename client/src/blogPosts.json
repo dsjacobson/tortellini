@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Blog Post 1",
+    "body-content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "image": "https://via.placeholder.com/200x200/"
+  },
+  {
+    "name": "Blog Post 2",
+    "body-content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "image": "https://via.placeholder.com/200x200/"
+  },
+  {
+    "name": "Blog Post 3",
+    "body-content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "image": "https://via.placeholder.com/200x200/"
+  }
+,
+  {
+    "name": "Blog Post 4",
+    "body-content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "image": "https://via.placeholder.com/200x200/"
+  }
+]
