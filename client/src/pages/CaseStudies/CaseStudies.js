@@ -22,20 +22,47 @@ class CaseStudies extends React.Component {
 			caseStudy = caseStudies[2];
 			return caseStudy;
 		}
+
+		else if (name === caseStudies[3].name) {
+			caseStudy = caseStudies[3];
+			return caseStudy;
+		}
 	}
 };
 
 render() {
 	return(
 		<div className="case-studies-header">
-			<h3 className="service-title">{this.setService().name}</h3>
-			<img src={this.setService().backgroundImage} alt=""/>
+			<h3 className="case-stdy-title">{this.setCaseStudies().name}</h3>
+			<img src={this.setCaseStudies().backgroundImage} alt=""/>
 		</div>
 
-		<div className="service-description">
-			<h3 className="">{this.setCaseStudies().text}</h3>
+		<div className="cs-textbox">
+			<p className="cs-description">{this.setCaseStudies().text}</p>
 		</div>
 
+		<div className="case-studies">
+			<div className="cs-card">
+				<i className={this.setCaseStudies().icon}></i>
+				<h4 className="">{this.setCaseStudies().name}</h4>
+				<button className="casestudy-btn">Learn More!</button>
+			</div>
+			<div className="cs-card">
+				<i className={this.setCaseStudies().icon}></i>
+				<h4 className="">{this.setCaseStudies().name}</h4>
+				<button className="casestudy-btn">Learn More!</button>
+			</div>
+			<div className="cs-card">
+				<i className={this.setService().icon}></i>
+				<h4 className="">{this.setCaseStudies().name}</h4>
+				<button className="casestudy-btn">Learn More!</button>
+			</div>
+		</div>
+
+		<div className="cta-bar">
+			<p className="cta-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet</p>
+			<button className="cta-button">Contact Us</button>
+		</div>
 	)
 }
 
