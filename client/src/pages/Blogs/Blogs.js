@@ -1,7 +1,7 @@
 import React from "react";
 import "./Blogs.css";
 
-const blogs = require("../../.json");
+const blogs = require("../../blogPsts.json");
 
 class blogPosts extends React.Component {
 
@@ -22,20 +22,25 @@ class blogPosts extends React.Component {
 			blogPost = blogPosts[2];
 			return blogPost;
 		}
+		else if (name === blogPosts[3].name) {
+			blogPost = blogPosts[3];
+			return blogPost;
+		}
 	}
 };
 
 render() {
 	return(
-		<div className="caseStudyCard">
-			<h3 className="service-title">{this.setCaseStudies().name}</h3>
-			<img src={this.setCaseStudies().images} alt="case-study"/>
+		<div className="blogPosts">
+			<h1 className="blog-title">{this.setBlogPosts().name}</h1>
+			<img src={this.setBlogPosts().image} alt="case-study"/>
+			<h2 className="">{this.setBlogPosts().body-content.subheadingOne}</h2>		
+			<p className="">{this.setBlogPosts().body-content.pOne}</p>
+			<h2 className="">{this.setBlogPosts().body-content.subheadingTwo}</h2>	
+			<p className="">{this.setBlogPosts().body-content.pTwo}</p>
+			<h2 className="">{this.setBlogPosts().body-content.subheadingThree}</h2>	
+			<p className="">{this.setBlogPosts().body-content.pThree}</p>			
 		</div>
-
-		<div className="service-description">
-			<h3 className="">{this.setCaseStudies().text}</h3>
-		</div>
-
 	)
 }
 

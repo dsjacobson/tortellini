@@ -22,19 +22,45 @@ class Blog extends React.Component {
 			blog = blogs[2];
 			return blog;
 		}
+		else if (name === blogs[3].name) {
+			blog = blogs[3];
+			return blog;
+		}
 	}
 };
 
 render() {
 	return(
-		<div className="blogPosts">
-			<h3 className="service-title">{this.setCaseStudies().name}</h3>
-			<img src={this.setCaseStudies().images} alt="case-study"/>
+
+		<div className="case-studies-header">
+			<h1 className="case-stdy-title">Blog Posts</h1>
+			<img src={this.setCaseStudies().backgroundImage} alt=""/>
 		</div>
 
-		<div className="service-description">
-			<h3 className="">{this.setCaseStudies().text}</h3>
+		<div className="blogPosts">
+			<img src={this.setBlog().image} alt="case-study"/>
+			<h3 className="blog-title">{this.setBlog().name}</h3>
+			<p className="">{this.setBlog().shortDesc}</p>
 		</div>
+
+		<div className="blogPosts">
+			<img src={this.setBlog().image} alt="case-study"/>
+			<h3 className="blog-title">{this.setBlog().name}</h3>
+			<p className="">{this.setBlog().shortDesc}</p>
+		</div>
+
+		<div className="blogPosts">
+			<img src={this.setBlog().image} alt="case-study"/>
+			<h3 className="blog-title">{this.setBlog().name}</h3>
+			<p className="">{this.setBlog().shortDesc}</p>
+		</div>
+
+		<div className="blogPosts">
+			<img src={this.setBlog().image} alt="case-study"/>
+			<h3 className="blog-title">{this.setBlog().name}</h3>
+			<p className="">{this.setBlog().shortDesc}</p>
+		</div>
+
 
 	)
 }
