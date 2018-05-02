@@ -9,8 +9,8 @@ const Home = () => (
         {/*hero*/}
         <div className="marketing-site-hero cell small-12 medium-12">
             <div className="marketing-site-hero-content">
-                <h1>Welcome to Carbos</h1>
-                <p className="subheader">Ready to use, full-stack web templates.</p>
+                <h1>Welcome to Tortellini</h1>
+                <p className="subheader">Marketing/Consulting Firm Template</p>
                 <a href="/#" className="round button">learn more</a>
             </div>
         </div>
@@ -40,7 +40,7 @@ const Home = () => (
         </div>
         {/*Recent Blog Posts*/}
         <div className="marketing-site-features grid-x small-12 medium-12">
-            <h2 className="marketing-site-features-headline cell small-12 medium-12">Case Studies</h2>
+            <h2 className="marketing-site-features-headline cell small-12 medium-12">Recent Blog Posts</h2>
             {
                 blogPosts.map((post) => (
                     <div className="tech-section cell small-12 medium-3">

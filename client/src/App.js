@@ -28,7 +28,7 @@ const App = () => (
                     <Route exact path="/blog/:id" component={Blog} />
 
                     <Route exact path="/blog" component={Blogs} />
-
+                </Switch>
 
             <Footer />
         </div>
