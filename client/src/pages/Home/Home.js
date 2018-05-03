@@ -3,6 +3,7 @@ import "./Home.css";
 
 const services = require("../../services.json");
 const caseStudies = require("../../caseStudies.json");
+const blogPosts = require("../../blogPosts.json");
 
 const Home = () => (
     <div className="grid-x">
