@@ -26,7 +26,7 @@ class Services extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className="grid-x">
                 <div className="service-header">
                     <h3 className="service-title">{this.setService().name}</h3>
                     <img src={this.setService().backgroundImage} alt=""/>
@@ -36,28 +36,29 @@ class Services extends React.Component {
                     <p className="">{this.setService().content.sectionContent}</p>
                 </div>
 
-                <div className="secondary-services">
-                    <div className="sec-service-card">
-                        <i className={this.setService().secondaryServices.secIconOne}/>
-                        <h4 className="sec-cat-card">{this.setService().secondaryServices.secServiceOne}</h4>
-                        <p className="sec-cat-card">{this.setService().secondaryServices.secDescriptionOne}</p>
+                <div className="marketing-site-three-up grid-x medium-12">
+                    <div className="cell medium-4">
+                        <i className="fi-graph-bar" aria-hidden="true" width="50px" height="auto"/>
+                        <h4 className="marketing-site-three-up-title">{this.setService().content.secondaryServices.secServiceOne}</h4>
+                        <p className="marketing-site-three-up-desc">{this.setService().content.secondaryServices.secDescriptionOne}</p>
+                    </div>
+                
+                    <div className="cell medium-4">
+                        <i className={this.setService().content.secondaryServices.secIconTwo} aria-hidden="true"/>
+                        <h4 className="marketing-site-three-up-title">{this.setService().content.secondaryServices.secServiceTwo}</h4>
+                        <p className="marketing-site-three-up-desc">{this.setService().content.secondaryServices.secDescriptionTwo}</p>
+                    </div>
+                    <div className="cell medium-4">
+                        <i className={this.setService().content.secondaryServices.secIconThree} aria-hidden="true"/>
+                        <h4 className="marketing-site-three-up-title">{this.setService().content.secondaryServices.secServiceThree}</h4>
+                        <p className="marketing-site-three-up-desc">{this.setService().content.secondaryServices.secDescriptionThree}</p>
                     </div>
                 </div>
-                <div className="sec-service-card">
-                    <i className={this.setService().secondaryServices.secIconTwo}/>
-                    <h4 className="sec-cat-card">{this.setService().secondaryServices.secServiceTwo}</h4>
-                    <p className="sec-cat-card">{this.setService().secondaryServices.secDescriptionTwo}</p>
-                </div>
-                <div className="sec-service-card">
-                    <i className={this.setService().secondaryServices.secIconThree}/>
-                    <h4 className="sec-cat-card">{this.setService().secondaryServices.secServiceThree}</h4>
-                    <p className="sec-cat-card">{this.setService().secondaryServices.secDescriptionThree}</p>
-                </div>
+                    <div className="cta-bar">
+                        <p className="cta-message">{this.setService().content.ctaMessage}</p>
+                        <button className="cta-button">Contact Us</button>
+                    </div>
 
-                <div className="cta-bar">
-                    <p className="cta-message">{this.setService().content.ctaMessage}</p>
-                    <button className="cta-button">Contact Us</button>
-                </div>
             </div>
         )
     }
