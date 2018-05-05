@@ -1,10 +1,10 @@
 [
   {
     "name": "Blog Post 1",
-    "short-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://via.placeholder.com/200x200/",
     "backgroundImage": "http://via.placeholder.com/1900x300",
-    "body-content": {
+    "bodyContent": {
       "subheadingOne": "First Sub Heading",
       "pOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
       "subheadingTwo": "First Sub Heading",
@@ -15,10 +15,10 @@
   },
   {
     "name": "Blog Post 2",
-    "short-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://via.placeholder.com/200x200/",
     "backgroundImage": "http://via.placeholder.com/1900x300",
-    "body-content": {
+    "bodyContent": {
       "subheadingOne": "First Sub Heading",
       "pOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
       "subheadingTwo": "First Sub Heading",
@@ -29,10 +29,10 @@
   },
   {
     "name": "Blog Post 3",
-    "short-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://via.placeholder.com/200x200/",
     "backgroundImage": "http://via.placeholder.com/1900x300",
-    "body-content": {
+    "bodyContent": {
       "subheadingOne": "First Sub Heading",
       "pOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
       "subheadingTwo": "First Sub Heading",
@@ -43,10 +43,10 @@
   },
   {
     "name": "Blog Post 4",
-    "short-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://via.placeholder.com/200x200/",
     "backgroundImage": "http://via.placeholder.com/1900x300",
-    "body-content": {
+    "bodyContent": {
       "subheadingOne": "First Sub Heading",
       "pOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
       "subheadingTwo": "First Sub Heading",
@@ -54,5 +54,5 @@
       "subheadingThree": "First Sub Heading",
       "pThree": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius." 
     }
-  },
+  }
 ]

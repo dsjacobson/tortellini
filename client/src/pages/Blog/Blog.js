@@ -26,44 +26,45 @@ class Blog extends React.Component {
 			blog = blogs[3];
 			return blog;
 		}
+	};
+
+	render() {
+		return(
+
+			<div>
+				<div className="case-studies-header">
+					<h1 className="case-stdy-title">Blog Posts</h1>
+					<img src={this.setCaseStudies().backgroundImage} alt=""/>
+				</div>
+
+				<div className="blogPosts">
+					<img src={this.setBlog().image} alt="case-study"/>
+					<h3 className="blog-title">{this.setBlog().name}</h3>
+					<p className="">{this.setBlog().shortDesc}</p>
+				</div>
+
+				<div className="blogPosts">
+					<img src={this.setBlog().image} alt="case-study"/>
+					<h3 className="blog-title">{this.setBlog().name}</h3>
+					<p className="">{this.setBlog().shortDesc}</p>
+				</div>
+
+				<div className="blogPosts">
+					<img src={this.setBlog().image} alt="case-study"/>
+					<h3 className="blog-title">{this.setBlog().name}</h3>
+					<p className="">{this.setBlog().shortDesc}</p>
+				</div>
+
+				<div className="blogPosts">
+					<img src={this.setBlog().image} alt="case-study"/>
+					<h3 className="blog-title">{this.setBlog().name}</h3>
+					<p className="">{this.setBlog().shortDesc}</p>
+				</div>
+			</div>
+
+		)
 	}
 };
-
-render() {
-	return(
-
-		<div className="case-studies-header">
-			<h1 className="case-stdy-title">Blog Posts</h1>
-			<img src={this.setCaseStudies().backgroundImage} alt=""/>
-		</div>
-
-		<div className="blogPosts">
-			<img src={this.setBlog().image} alt="case-study"/>
-			<h3 className="blog-title">{this.setBlog().name}</h3>
-			<p className="">{this.setBlog().shortDesc}</p>
-		</div>
-
-		<div className="blogPosts">
-			<img src={this.setBlog().image} alt="case-study"/>
-			<h3 className="blog-title">{this.setBlog().name}</h3>
-			<p className="">{this.setBlog().shortDesc}</p>
-		</div>
-
-		<div className="blogPosts">
-			<img src={this.setBlog().image} alt="case-study"/>
-			<h3 className="blog-title">{this.setBlog().name}</h3>
-			<p className="">{this.setBlog().shortDesc}</p>
-		</div>
-
-		<div className="blogPosts">
-			<img src={this.setBlog().image} alt="case-study"/>
-			<h3 className="blog-title">{this.setBlog().name}</h3>
-			<p className="">{this.setBlog().shortDesc}</p>
-		</div>
-
-
-	)
-}
 
 
 export default Blog;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Blogs.css";
 
-const blogs = require("../../blogPsts.json");
+const Blogs = require("../../blogPosts.json");
 
 class blogPosts extends React.Component {
 
@@ -26,23 +26,23 @@ class blogPosts extends React.Component {
 			blogPost = blogPosts[3];
 			return blogPost;
 		}
+	};
+
+
+	render() {
+		return(
+			<div className="blogPosts">
+				<h1 className="blog-title">{this.setBlogPosts().name}</h1>
+				<img src={this.setBlogPosts().image} alt="case-study"/>
+				<h2 className="">{this.setBlogPosts().bodyContent.subheadingOne}</h2>		
+				<p className="">{this.setBlogPosts().bodyContent.pOne}</p>
+				<h2 className="">{this.setBlogPosts().bodyContent.subheadingTwo}</h2>	
+				<p className="">{this.setBlogPosts().bodyContent.pTwo}</p>
+				<h2 className="">{this.setBlogPosts().bodyContent.subheadingThree}</h2>	
+				<p className="">{this.setBlogPosts().bodyContent.pThree}</p>			
+			</div>
+		)
 	}
 };
-
-render() {
-	return(
-		<div className="blogPosts">
-			<h1 className="blog-title">{this.setBlogPosts().name}</h1>
-			<img src={this.setBlogPosts().image} alt="case-study"/>
-			<h2 className="">{this.setBlogPosts().body-content.subheadingOne}</h2>		
-			<p className="">{this.setBlogPosts().body-content.pOne}</p>
-			<h2 className="">{this.setBlogPosts().body-content.subheadingTwo}</h2>	
-			<p className="">{this.setBlogPosts().body-content.pTwo}</p>
-			<h2 className="">{this.setBlogPosts().body-content.subheadingThree}</h2>	
-			<p className="">{this.setBlogPosts().body-content.pThree}</p>			
-		</div>
-	)
-}
-
 
 export default Blogs;
