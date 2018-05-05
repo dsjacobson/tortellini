@@ -34,32 +34,21 @@ class Blog extends React.Component {
 			<div>
 				<div className="case-studies-header">
 					<h1 className="case-stdy-title">Blog Posts</h1>
-					<img src={this.setCaseStudies().backgroundImage} alt=""/>
+					<img src={blogs[0].backgroundImage} alt=""/>
 				</div>
 
-				<div className="blogPosts">
-					<img src={this.setBlog().image} alt="case-study"/>
-					<h3 className="blog-title">{this.setBlog().name}</h3>
-					<p className="">{this.setBlog().shortDesc}</p>
-				</div>
+			<section>
+				{
+			            blogs.map((blog) => (
+		                <div className="feature-section cell small-12 medium-4">
+		                    <img src={blog.image} aria-hidden="true"/>
+		                    <h4 className="marketing-site-three-up-title"><a href="#">{blog.name}</a></h4>
+		                    <p className="marketing-site-three-up-desc">{blog.shortDesc}</p>
+		                </div>
+		            ))
+	        	}
+	        </section>
 
-				<div className="blogPosts">
-					<img src={this.setBlog().image} alt="case-study"/>
-					<h3 className="blog-title">{this.setBlog().name}</h3>
-					<p className="">{this.setBlog().shortDesc}</p>
-				</div>
-
-				<div className="blogPosts">
-					<img src={this.setBlog().image} alt="case-study"/>
-					<h3 className="blog-title">{this.setBlog().name}</h3>
-					<p className="">{this.setBlog().shortDesc}</p>
-				</div>
-
-				<div className="blogPosts">
-					<img src={this.setBlog().image} alt="case-study"/>
-					<h3 className="blog-title">{this.setBlog().name}</h3>
-					<p className="">{this.setBlog().shortDesc}</p>
-				</div>
 			</div>
 
 		)
