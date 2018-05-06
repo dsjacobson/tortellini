@@ -12,7 +12,7 @@ const Footer = () => (
             <div className="cell medium-12">
                 <a href="#">Back to Top</a>
             </div>
-            <div className="cell medium-2">
+            <div className="cell medium-3">
                 <h4 className="marketing-site-footer-name">Tortellini</h4>
                 <ul className="menu marketing-site-footer-links">
                     <li><a href="/">Home</a></li>
@@ -32,27 +32,20 @@ const Footer = () => (
                     }
                 </ul>
             </div>
+
             <div className="cell medium-3">
-                <a href="/casestudies">Case Studies</a>
-                <ul className="menu marketing-site-footer-case-studies">
-                    {
-                        caseStudies.map((study)=>(
-                            <li><a href="/casestudies/{study.name}">{study.name}</a></li>
-                        ))
-                    }
-                </ul>
-            </div>
-            <div className="cell medium-2">
-                Contact Info
                 <ul className="menu marketing-site-footer-contacts">
+        
                     {
                         contactInfo.map((info)=> (
-                            <p>{info.name}: {info.value}</p>
+                            <h5>{info.companyName}</h5>
+                            // <p>{info.street}</p>
+                            // <p>{info.city}, {info.state} {info.zip}</p>
                         ))
                     }
                 </ul>
             </div>
-            <div className="cell medium-2">
+            <div className="cell medium-3">
                 <ul className="menu marketing-site-footer-menu-social simple grid-x medium-12">
                     {
                         socialMedia.map((media)=>(

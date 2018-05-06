@@ -42,7 +42,7 @@ class Blog extends React.Component {
 			            blogs.map((blog) => (
 		                <div className="feature-section cell small-12 medium-4">
 		                    <img src={blog.image} aria-hidden="true"/>
-		                    <h4 className="marketing-site-three-up-title"><a href="#">{blog.name}</a></h4>
+		                    <h4 className="marketing-site-three-up-title"><a href="/">{blog.name}</a></h4>
 		                    <p className="marketing-site-three-up-desc">{blog.shortDesc}</p>
 		                </div>
 		            ))

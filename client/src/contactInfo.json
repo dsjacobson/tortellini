@@ -1,9 +1,9 @@
 [
   {
-    "name": "Service1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-    "icon": "fi fi-puzzle",
-    "backgroundImage": "http://via.placeholder.com/1900x300",
-    "value": 1
+    "companyName": "Marketing Agency",
+    "street": "2828 University Ave SE",
+    "city": "Minneapolis",
+    "state": "MN",
+    "zip": 55414
   }
 ]

@@ -4,7 +4,6 @@
     "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://via.placeholder.com/200x200/",
     "backgroundImage": "http://via.placeholder.com/1900x300",
-    "id":1,
     "bodyContent": {
       "subheadingOne": "First Sub Heading",
       "pOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
