@@ -5,7 +5,6 @@ const services = require("../../services.json");
 const caseStudies = require("../../caseStudies.json");
 const contactInfo = require("../../contactInfo.json");
 const socialMedia = require("../../socialMedia.json");
-const twitterIcon = require("../../images/twitter-icon.png");
 
 const Footer = () => (
     <footer className="marketing-site-footer grid-x medium-12">
@@ -52,9 +51,9 @@ const Footer = () => (
                 <ul className="menu marketing-site-footer-menu-social simple grid-x medium-12">
                     {
                         socialMedia.map((media)=>(
-                            <li className="cell medium-6">
+                            <li className="cell medium-4">
                                 <a href={media.url}>
-                                    <img src={media.image} alt={media.name}/>
+                                    <img src={media.image} alt={media.name} className="social-icons"/>
                                 </a>
                             </li>
                         ))
