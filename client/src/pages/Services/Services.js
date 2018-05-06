@@ -28,7 +28,7 @@ class Services extends React.Component {
         return(
             <div className="grid-x">
                 <div className="service-header">
-                    <h3 className="service-title">{this.setService().name}</h3>
+                    <h1 className="service-title">{this.setService().name}</h1>
                     <img src={this.setService().backgroundImage} alt=""/>
                 </div>
 
@@ -39,18 +39,21 @@ class Services extends React.Component {
                 <div className="marketing-site-three-up grid-x medium-12">
                     <div className="cell medium-4">
                         <i className="fi-graph-bar" aria-hidden="true" width="50px" height="auto"/>
-                        <h4 className="marketing-site-three-up-title">{this.setService().content.secondaryServices.secServiceOne}</h4>
+                        <img src={this.setService().content.secondaryServices.serviceImage1} alt=""/>
+                        <h3 className="marketing-site-three-up-title">{this.setService().content.secondaryServices.secServiceOne}</h3>
                         <p className="marketing-site-three-up-desc">{this.setService().content.secondaryServices.secDescriptionOne}</p>
                     </div>
                 
                     <div className="cell medium-4">
                         <i className={this.setService().content.secondaryServices.secIconTwo} aria-hidden="true"/>
-                        <h4 className="marketing-site-three-up-title">{this.setService().content.secondaryServices.secServiceTwo}</h4>
+                        <img src={this.setService().content.secondaryServices.serviceImage2} alt=""/>
+                        <h3 className="marketing-site-three-up-title">{this.setService().content.secondaryServices.secServiceTwo}</h3>
                         <p className="marketing-site-three-up-desc">{this.setService().content.secondaryServices.secDescriptionTwo}</p>
                     </div>
                     <div className="cell medium-4">
                         <i className={this.setService().content.secondaryServices.secIconThree} aria-hidden="true"/>
-                        <h4 className="marketing-site-three-up-title">{this.setService().content.secondaryServices.secServiceThree}</h4>
+                        <img src={this.setService().content.secondaryServices.serviceImage3} alt=""/>
+                        <h3 className="marketing-site-three-up-title">{this.setService().content.secondaryServices.secServiceThree}</h3>
                         <p className="marketing-site-three-up-desc">{this.setService().content.secondaryServices.secDescriptionThree}</p>
                     </div>
                 </div>

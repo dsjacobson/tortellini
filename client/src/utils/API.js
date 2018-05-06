@@ -9,4 +9,9 @@ export default {
     getSupport: function() {
         return axios.get("/api/forum/support");
     }
+
+    //Retrieve individual blog posts
+    getBlogPost: function() {
+    	return axios.get("api/blog/{id}");
+    }
 };

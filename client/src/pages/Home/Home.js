@@ -21,8 +21,9 @@ const Home = () => (
                     services.map((service) => (
                         <div className="feature-section cell small-12 medium-4">
                             <i className={service.icon} aria-hidden="true"/>
-                            <h4 className="marketing-site-three-up-title">{service.name}</h4>
+                            <h4 className="marketing-site-three-up-title"><a href={"/services/" + service.name}>{service.name}</a></h4>
                             <p className="marketing-site-three-up-desc">{service.description}</p>
+                            <a href={"/services/" + service.name} className="round button">Learn More</a>
                         </div>
                     ))
                 }
