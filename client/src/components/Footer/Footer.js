@@ -5,6 +5,7 @@ const services = require("../../services.json");
 const caseStudies = require("../../caseStudies.json");
 const contactInfo = require("../../contactInfo.json");
 const socialMedia = require("../../socialMedia.json");
+const twitterIcon = require("../../images/twitter-icon.png");
 
 const Footer = () => (
     <footer className="marketing-site-footer grid-x medium-12">
@@ -38,9 +39,11 @@ const Footer = () => (
         
                     {
                         contactInfo.map((info)=> (
-                            <h5>{info.companyName}</h5>
-                            // <p>{info.street}</p>
-                            // <p>{info.city}, {info.state} {info.zip}</p>
+                            <div>
+                                <h5>{info.companyName}</h5>
+                                <p>{info.street}</p>
+                                <p>{info.city}, {info.state} {info.zip}</p>
+                            </div>
                         ))
                     }
                 </ul>

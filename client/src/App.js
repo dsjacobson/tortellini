@@ -9,6 +9,7 @@ import CaseStudies from "./pages/CaseStudies";
 import Blogs from "./pages/Blogs";
 import "./App.css"
 import Blog from "./pages/Blog";
+import CreateBlogPosts from "./pages/CreateBlogPosts";
 
 const App = () => (
 
@@ -28,6 +29,7 @@ const App = () => (
                     <Route exact path="/blogs/:id" component={Blogs} />
 
                     <Route exact path="/blog" component={Blog} />
+
                 </Switch>
 
             <Footer />
