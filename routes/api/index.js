@@ -5,8 +5,6 @@ const blogRoute = require("./blog");
 
 
 //Routes
-router.use("/forum/general", generalRoute);
-router.use("/forum/support", supportRoute);
 router.use("/blog/{id}", blogRoute);
 
 module.exports = router;
