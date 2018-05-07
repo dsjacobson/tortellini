@@ -115,7 +115,19 @@
 }
 
 .tech-section h5 {
-    background-color: blue;
+    background-color: #3f68fc;
     width: 300px;
-    text-align: center;
+    display: inline-block;
+}
+
+.marketing-site-three-up-desc {
+    padding: 10px 75px 10px 75px;
+}
+
+.marketing-site-features-case-studies {
+    background-color: #656668;
+}
+
+.feature-section i {
+    font-size: 100px;
 }

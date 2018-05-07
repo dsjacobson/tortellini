@@ -57,9 +57,9 @@ class Services extends React.Component {
                         <p className="marketing-site-three-up-desc">{this.setService().content.secondaryServices.secDescriptionThree}</p>
                     </div>
                 </div>
-                    <div className="cta-bar">
+                    <div className="cta-bar cell medium 12">
                         <p className="cta-message">{this.setService().content.ctaMessage}</p>
-                        <button className="cta-button">Contact Us</button>
+                        <button className="cta-button round button">Contact Us</button>
                     </div>
 
             </div>

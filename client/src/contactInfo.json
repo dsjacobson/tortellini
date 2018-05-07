@@ -4,6 +4,8 @@
     "street": "2828 University Ave SE",
     "city": "Minneapolis",
     "state": "MN",
-    "zip": 55414
+    "zip": 55414,
+    "phone": "651-321-7240",
+    "email": "info@company.com"
   }
 ]

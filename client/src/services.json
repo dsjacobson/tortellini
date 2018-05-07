@@ -2,7 +2,7 @@
   {
     "name": "Service1",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-    "icon": "fi fi-puzzle",
+    "icon": "fi fi-puzzle medium",
     "backgroundImage": "https://picsum.photos/1900/300?image=0",
     "content": {
       "sectionTitle": "",
@@ -30,7 +30,7 @@
   {
       "name": "Service2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-      "icon": "fi-graph-bar",
+      "icon": "fi-graph-bar large",
       "backgroundImage": "https://picsum.photos/1900/300?image=8",
       "content": {
         "sectionTitle": "",

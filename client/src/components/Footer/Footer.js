@@ -33,15 +33,18 @@ const Footer = () => (
                 </ul>
             </div>
 
+            {/*Footer contact info with schema.org markup for SEO*/}
             <div className="cell medium-3">
                 <ul className="menu marketing-site-footer-contacts">
         
                     {
                         contactInfo.map((info)=> (
-                            <div>
-                                <h5>{info.companyName}</h5>
-                                <p>{info.street}</p>
-                                <p>{info.city}, {info.state} {info.zip}</p>
+                            <div itemscope itemtype="http://schema.org/LocalBusiness">
+                                <h4 itemprop="name">{info.companyName}</h4>
+                                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">{info.street}</span><br/>
+                                <span itemprop="addressLocality">{info.city}</span>, <span itemprop="addressRegion">{info.state}</span> <span itemprop="postalCode">{info.zip}</span></span>
+                                <br/>Phone: <span itemprop="telephone">{info.phone}</span>
+                                <br/>E-mail: <span itemprop="email">{info.email}</span>
                             </div>
                         ))
                     }

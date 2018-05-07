@@ -12,7 +12,7 @@ const Nav = () => (
                     <button className="menu-icon" type="button" data-toggle="topbar-responsive"/>
                 </span>
 
-                <a className="topbar-responsive-logo" href="/"><strong>Tortellini</strong></a>
+                <a className="topbar-responsive-logo" href="/"><i class="fi-list"/><strong>Tortellini</strong></a>
             </div>
 
             <div id="topbar-responsive" className="topbar-responsive-links">

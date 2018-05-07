@@ -5,11 +5,16 @@
 
 .cta-bar {
 	border: solid;
+    text-align: center;
 }
 
 
 h3 {
 	text-align: center;
+}
+
+.marketing-site-three-up-desc {
+    padding: 10px 75px 10px 75px;
 }
 
 /*hero*/
