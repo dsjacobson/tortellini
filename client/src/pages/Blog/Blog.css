@@ -1,0 +1,12 @@
+.feature-section h4 {
+	display: inline;
+}
+
+.feature-section p {
+	display: inline-block;
+}
+
+section {
+	display: block;
+}
+
