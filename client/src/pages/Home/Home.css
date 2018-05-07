@@ -113,3 +113,9 @@
     margin-bottom: 2rem;
     text-align: center;
 }
+
+.tech-section h5 {
+    background-color: blue;
+    width: 300px;
+    text-align: center;
+}

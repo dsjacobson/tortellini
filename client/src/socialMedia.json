@@ -1,22 +1,22 @@
 [
   {
     "name": "Social Media1",
-    "image": "https://github.com/thecarlliu/tortellini/client/src/images/twitter-icon.png",
+    "image": "https://raw.githubusercontent.com/thecarlliu/tortellini/master/client/src/images/github-logo.png",
     "url": "https://google.com"
   },
   {
     "name": "Social Media2",
-    "image": "https://github.com/thecarlliu/tortellini/client/src/images/twitter-icon.png",
+    "image": "https://raw.githubusercontent.com/thecarlliu/tortellini/master/client/src/images/facebook-logo.png",
     "url": "https://google.com"
   },
   {
     "name": "Social Media3",
-    "image": "https://github.com/thecarlliu/tortellini/client/src/images/twitter-icon.png",
+    "image": "https://raw.githubusercontent.com/thecarlliu/tortellini/master/client/src/images/twitter-icon.png",
     "url": "https://google.com"
   },
   {
     "name": "Social Media4",
-    "image": "https://via.placeholder.com/50x50/",
+    "image": "https://raw.githubusercontent.com/thecarlliu/tortellini/master/client/src/images/linkedin-logo-2.png",
     "url": "https://google.com"
   }
 ]
