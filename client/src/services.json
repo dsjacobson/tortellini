@@ -4,6 +4,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "icon": "fi fi-monitor",
     "backgroundImage": "https://picsum.photos/1900/300?image=0",
+    "cssBackground": "serviceOne",
     "content": {
       "sectionTitle": "Increase Web Traffic with Effective Digital Marketing",
       "sectionContent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
@@ -32,11 +33,12 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
       "icon": "fi-graph-bar",
       "backgroundImage": "https://picsum.photos/1900/300?image=8",
+      "cssBackground": "serviceTwo",
       "content": {
-        "sectionTitle": "",
-        "sectionContent": "",
-        "titleTwo": "",
-        "contentTwo": "",
+        "sectionTitle": "Increase Organic Traffic Through SEO",
+        "sectionContent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
+        "titleTwo": "Engaging Content that Converts",
+        "contentTwo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
         "ctaMessage": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet",
         "secondaryServices": {
         "serviceImage1": "https://picsum.photos/100/100?image=2",
@@ -60,11 +62,12 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
       "icon": "fi fi-html5",
       "backgroundImage": "https://picsum.photos/1900/300?image=48",
+      "cssBackground": "serviceThree",
       "content": {
-        "sectionTitle": "",
-        "sectionContent": "",
-        "titleTwo": "",
-        "contentTwo": "",
+        "sectionTitle": "Increase Conversions With A Stylish Custom Website",
+        "sectionContent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
+        "titleTwo": "Custom Websites For Large and Small Businesses",
+        "contentTwo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
         "ctaMessage": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet",
         "secondaryServices": {
         "serviceImage1": "https://picsum.photos/100/100?image=2",

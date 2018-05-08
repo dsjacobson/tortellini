@@ -28,9 +28,9 @@ class Services extends React.Component {
     render() {
         return(
             <div className="grid-x">
-                <div className="service-header">
+                <div className={"service-header-" + this.setService().cssBackground}>
                     <h1 className="service-title">{this.setService().name}</h1>
-                    <img src={this.setService().backgroundImage} alt=""/>
+
                 </div>
 
                 <div className="service-content grid-x medium-12">
@@ -82,7 +82,7 @@ class Services extends React.Component {
 
 
                 <div className="cta-bar cell medium 12">
-                    <h5 className="cta-message">Interested in how we can help you with{this.setService().name}?</h5>
+                    <h5 className="cta-message">Learn how we can help your business with {this.setService().name}!</h5>
                     <button className="cta-button round button">Contact Us</button>
                 </div>
 

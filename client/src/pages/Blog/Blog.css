@@ -1,12 +1,37 @@
-.feature-section h4 {
-	display: inline;
-}
 
-.feature-section p {
-	display: inline-block;
+.feature-section-blog {
+	display: inline-flex;
+	padding: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 section {
 	display: block;
+}
+
+/*hero*/
+.blog-header {
+    background: url("https://picsum.photos/1900/300?image=249") top right no-repeat;
+    height: 300px;
+    width: 1900px;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.blog-header h1 { 
+    color: white;
+    float: center;
+    padding-left: 100px;
+}
+
+.blog-title-descr {
+	margin-top: 12px;
+	margin-bottom: 20px;
 }
 

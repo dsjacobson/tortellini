@@ -33,20 +33,28 @@ class Blog extends React.Component {
 		return(
 
 			<div>
-				<div className="case-studies-header">
+				<div className="blog-header">
 					<h1 className="case-stdy-title">Tortellini Blog</h1>
-					<img src={blogs[0].backgroundImage} alt=""/>
 				</div>
 
 				<section>
 					{
 				            blogs.map((blog) => (
-			                <div className="feature-section cell small-12 medium-4">
-			                    <img src={blog.image} aria-hidden="true"/>
-			                    <h4 className="marketing-site-three-up-title"><a href="/">{blog.name}</a></h4>
-			                    <br/>
-			                    <p className="marketing-site-blog-three-up-desc">{blog.shortDesc}</p>
-			                </div>
+			                <div className="grid-x medium-12">
+			                	<div className="cell medium-3">
+			                	</div>
+				                <div className="feature-section-blog grid-x medium-6">
+					                <div className="feature-section-blog cell small-12 cell medium-3">    
+					                    <img src={blog.image} aria-hidden="true"/>
+					                </div>
+					                <div className="blog-title-descr cell small-12 medium-6">    
+					                    <h4 className="marketing-site-three-up-title"><a href="/">{blog.name}</a></h4>
+					                    <p className="marketing-site-blog-three-up-desc">{blog.shortDesc}</p>
+					                </div>
+					            </div>
+			                	<div className="cell medium-3">
+			                	</div>				                
+				            </div>
 			            ))
 		        	}
 		        </section>
