@@ -107,7 +107,7 @@
 
 .marketing-site-features-headline {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .marketing-site-features-subheadline {
@@ -119,6 +119,7 @@
     background-color: #1670ac;
     width: 300px;
     display: inline-block;
+    color: white;
 }
 
 .marketing-site-three-up-desc {
@@ -134,11 +135,24 @@
 }
 
 .marketing-site-hero p {
-    color: #656668;
+    color: #1779ba;
     font-size: 20px;
 
 }
 
 .marketing-site-features-case-studies h2 {
     color: white;
+}
+
+.tech-section h4 {
+    color: #1779ba;
+}
+
+.blog-headline {
+    color: #1779ba;
+    font-size: 30px;
+}
+
+.subheader {
+    color: #1779ba;
 }

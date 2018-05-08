@@ -38,48 +38,26 @@ class CaseStudies extends React.Component {
 					<h1 className="case-stdy-title">{this.setCaseStudies().name}</h1>
 					<img src={this.setCaseStudies().backgroundImage} alt=""/>
 				</div>
+		        
+                <div className="marketing-site-three-up case-study-three grid-x medium-12">
+                    <div className="cell medium-4">
+                        <img src={this.setCaseStudies().workDoneImage} alt=""/>
+                        <h3 className="marketing-site-three-up-title">Work Done</h3>
+                        <p className="marketing-site-three-up-desc">{this.setCaseStudies().workDone}</p>
+                    </div>
+                
+                    <div className="cell medium-4">
+                        <img src={this.setCaseStudies().challengesImage} alt=""/>
+                        <h3 className="marketing-site-three-up-title">Challenges</h3>
+                        <p className="marketing-site-three-up-desc">{this.setCaseStudies().challenges}</p>
+                    </div>
+                    <div className="cell medium-4">
+                        <img src={this.setCaseStudies().resultsImage} alt=""/>
+                        <h3 className="marketing-site-three-up-title">Results</h3>
+                        <p className="marketing-site-three-up-desc">{this.setCaseStudies().results}</p>
+                    </div>
+                </div>
 
-		        <section className="marketing-site-three-up grid-x small-12 medium-12">
-		                {
-		                    caseStudies.map((study) => (
-		                        <div className="feature-section cell small-12 medium-4">
-		                            <img src={this.setCaseStudies().companyImage} aria-hidden="true"/><br/>
-		                            <h4 className="marketing-site-three-up-title">{study.name}</h4>
-		                            <p className="marketing-site-three-up-desc">{study.text}</p>
-		                        </div>
-		                    ))
-		                }
-		        </section>
-
-				<div className="cs-textbox">
-					<p className="cs-description">{this.setCaseStudies().text}</p>
-				</div>
-
-				<div className="case-studies">
-					<div className="cs-card">
-						<i className={this.setCaseStudies().icon}/>
-						<h4 className="">{this.setCaseStudies().name}</h4>
-						<p className="">{this.setCaseStudies().text}</p>
-						<button className="round button">Learn More!</button>
-					</div>
-					<div className="cs-card">
-						<i className={this.setCaseStudies().icon}/>
-						<h4 className="">{this.setCaseStudies().name}</h4>
-						<p className="">{this.setCaseStudies().text}</p>
-						<button className="round button">Learn More!</button>
-					</div>
-					<div className="cs-card">
-						<i className={this.setCaseStudies().icon}/>
-						<h4 className="">{this.setCaseStudies().name}</h4>
-						<p className="">{this.setCaseStudies().text}</p>
-						<button className="round button">Learn More!</button>
-					</div>
-				</div>
-
-				<div className="cta-bar">
-					<p className="cta-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet</p>
-					<button className="round button">Contact Us</button>
-				</div>
 
 	            {/*Dynamically updates title tag and meta data in head section */}
 	            <div className="application">
@@ -91,10 +69,6 @@ class CaseStudies extends React.Component {
 	            </div>
 
 			</div>
-
-
-
-
 
 		)
 	}

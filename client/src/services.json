@@ -14,7 +14,7 @@
         "serviceImage1": "https://picsum.photos/100/100?image=2",
         "serviceImage2": "https://picsum.photos/100/100?image=180",
         "serviceImage3": "https://picsum.photos/100/100?image=201",
-        "secServiceOne": "Search Engine Optimization",
+        "secServiceOne": "Content Marketing",
         "secIconOne": "fi-graph-trend",
         "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
         "secServiceTwo": "Email Marketing",
@@ -28,7 +28,7 @@
   },
 
   {
-      "name": "Consulting Services",
+      "name": "Search Engine Optimization",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
       "icon": "fi-graph-bar",
       "backgroundImage": "https://picsum.photos/1900/300?image=8",
@@ -42,13 +42,13 @@
         "serviceImage1": "https://picsum.photos/100/100?image=2",
         "serviceImage2": "https://picsum.photos/100/100?image=180",
         "serviceImage3": "https://picsum.photos/100/100?image=201",
-          "secServiceOne": "Web Design",
+          "secServiceOne": "Technical Site Audits",
           "secIconOne": "fi fi-graph-trend",
           "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
-          "secServiceTwo": "Search Marketing",
+          "secServiceTwo": "On-Page Optimization",
           "secIconTwo": "fi fi-graph-bar",
           "secDescriptionTwo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
-          "secServiceThree": "Digital Analytics",
+          "secServiceThree": "Link Building",
           "secIconThree": "fi fi-html5",
           "secDescriptionThree": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet."
         }
@@ -70,13 +70,13 @@
         "serviceImage1": "https://picsum.photos/100/100?image=2",
         "serviceImage2": "https://picsum.photos/100/100?image=180",
         "serviceImage3": "https://picsum.photos/100/100?image=201",
-          "secServiceOne": "Sec Category 1",
+          "secServiceOne": "Responsive Web Design",
           "secIconOne": "fi fi-graph-trend",
           "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
-          "secServiceTwo": "Sec Category 2",
+          "secServiceTwo": "WordPress Web Development",
           "secIconTwo": "fi-graph-bar",
           "secDescriptionTwo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
-          "secServiceThree": "Sec Category 3",
+          "secServiceThree": "Custom Web Design",
           "secIconThree": "fi fi-html5",
           "secDescriptionThree": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet."
         }

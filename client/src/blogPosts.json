@@ -40,19 +40,5 @@
       "subheadingThree": "First Sub Heading",
       "pThree": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius." 
     }
-  },
-  {
-    "name": "Developing Applications Using React",
-    "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-    "image": "https://picsum.photos/200/200?image=48",
-    "backgroundImage": "https://picsum.photos/1900/300?image=249",
-    "bodyContent": {
-      "subheadingOne": "First Sub Heading",
-      "pOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-      "subheadingTwo": "First Sub Heading",
-      "pTwo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-      "subheadingThree": "First Sub Heading",
-      "pThree": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius." 
-    }
   }
 ]

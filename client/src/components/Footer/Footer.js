@@ -54,11 +54,11 @@ const Footer = () => (
                 <ul className="menu marketing-site-footer-menu-social simple grid-x medium-12">
                     {
                         socialMedia.map((media)=>(
-                            <li className="cell medium-4">
+                            <div className="cell medium-6">
                                 <a href={media.url}>
                                     <img src={media.image} alt={media.name} className="social-icons"/>
                                 </a>
-                            </li>
+                            </div>
                         ))
                     }
                 </ul>

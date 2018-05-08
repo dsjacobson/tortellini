@@ -4,7 +4,6 @@
 }
 
 .cta-bar {
-	border: solid;
     text-align: center;
 }
 
@@ -137,6 +136,7 @@ h3 {
     text-align: center;
     background-color: #2c3840;
     color: white;
+    padding: 5px 100px 5px 100px;
 }
 
 .service-content h2 {

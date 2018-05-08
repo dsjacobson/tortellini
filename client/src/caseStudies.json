@@ -1,34 +1,57 @@
 [
   {
-    "name": "Case Study 1",
+    "name": "Technical Site Audit",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://picsum.photos/300/300?image=48",
     "backgroundImage": "https://picsum.photos/1900/300?image=2",
     "icon": "fi-graph-trend",
-    "companyImage": "https://www.mychicagosteak.com/skin/frontend/rwd/chicagosteaks/images/logo.png"
+    "workDoneImage": "https://picsum.photos/100/100?image=2",
+    "challengesImage": "https://picsum.photos/100/100?image=180",
+    "resultsImage": "https://picsum.photos/100/100?image=201",
+    "workDone": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "challenges": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "results": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius."
   },
   
   {
-    "name": "Case Study 2",
+    "name": "Responsive Web Design",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://picsum.photos/300/300?image=201",
     "backgroundImage": "https://picsum.photos/1900/300?image=201",
-    "icon": "fi-graph-trend"
+    "icon": "fi-graph-trend",
+    "workDoneImage": "https://picsum.photos/100/100?image=2",
+    "challengesImage": "https://picsum.photos/100/100?image=180",
+    "resultsImage": "https://picsum.photos/100/100?image=201",
+    "workDone": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "challenges": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "results": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius."
   },
 
   {
-    "name": "Case Study 3",
+    "name": "Content Marketing",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://picsum.photos/300/300?image=366",
     "backgroundImage": "https://picsum.photos/1900/300?image=366",
-    "icon": "fi-graph-trend"
+    "icon": "fi-graph-trend",
+    "workDoneImage": "https://picsum.photos/100/100?image=2",
+    "challengesImage": "https://picsum.photos/100/100?image=180",
+    "resultsImage": "https://picsum.photos/100/100?image=201",
+    "workDone": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "challenges": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "results": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius."
   },
 
   {
-    "name": "Case Study 4",
+    "name": "Email Marketing Campaign",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://picsum.photos/300/300?image=249",
     "backgroundImage": "https://picsum.photos/1900/300?image=249",
-    "icon": "fi-graph-trend"
+    "icon": "fi-graph-trend",
+    "workDoneImage": "https://picsum.photos/100/100?image=2",
+    "challengesImage": "https://picsum.photos/100/100?image=180",
+    "resultsImage": "https://picsum.photos/100/100?image=201",
+    "workDone": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "challenges": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "results": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius."
   }
 ]

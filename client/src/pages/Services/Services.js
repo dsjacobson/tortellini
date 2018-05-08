@@ -34,10 +34,17 @@ class Services extends React.Component {
                 </div>
 
                 <div className="service-content grid-x medium-12">
-                    <h2 className="service-content">{this.setService().content.sectionTitle}</h2>
-                    <p className="service-content">{this.setService().content.sectionContent}</p>
-                    <h3 className="service-content">{this.setService().content.titleTwo}</h3>
-                    <p className="service-content">{this.setService().content.contentTwo}</p>
+                    <div className="cell medium-2">
+                    
+                    </div>
+                    
+                    <div className="cell medium-8">
+                        <h2 className="service-content">{this.setService().content.sectionTitle}</h2>
+                        <p className="service-content">{this.setService().content.sectionContent}</p>
+                    </div>
+                    <div className="cell medium-2">
+                    
+                    </div>
                 </div>
 
                 <div className="marketing-site-three-up grid-x medium-12">
@@ -58,12 +65,28 @@ class Services extends React.Component {
                         <p className="marketing-site-three-up-desc">{this.setService().content.secondaryServices.secDescriptionThree}</p>
                     </div>
                 </div>
-                    <div className="cta-bar cell medium 12">
-                        <p className="cta-message">{this.setService().content.ctaMessage}</p>
-                        <button className="cta-button round button">Contact Us</button>
-                    </div>
 
-                {/*Dynamically updates title tag and meta data in head section */}
+                <div className="service-content grid-x medium-12">
+                    <div className="cell medium-2">
+                    
+                    </div>
+                    
+                    <div className="cell medium-8">
+                        <h3 className="service-content">{this.setService().content.titleTwo}</h3>
+                        <p className="service-content">{this.setService().content.contentTwo}</p>
+                    </div>
+                    <div className="cell medium-2">
+                    
+                    </div>
+                </div>
+
+
+                <div className="cta-bar cell medium 12">
+                    <h5 className="cta-message">Interested in how we can help you with{this.setService().name}?</h5>
+                    <button className="cta-button round button">Contact Us</button>
+                </div>
+
+                    {/*Dynamically updates title tag and meta data in head section */}
                 <div className="application">
                     <Helmet>
                         <meta charSet="utf-8" />
