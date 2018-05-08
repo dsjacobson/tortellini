@@ -13,7 +13,7 @@ const Footer = () => (
                 <h4 className="marketing-site-footer-name">Tortellini</h4>
                 <ul className="menu marketing-site-footer-links">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/services/service1">Services</a></li>
+                    <li><a href="/services/Digital Marketing">Services</a></li>
                     <li><a href="/team">Team</a></li>
                     <li><a href="/casestudies">Case Studies</a></li>
                     <li><a href="/blog">Blog</a></li>
@@ -25,7 +25,7 @@ const Footer = () => (
                     <ul className="menu marketing-site-footer-services">
                         {
                             services.map((service)=> (
-                                <li><a href="/services/{service.name}">{service.name}</a></li>
+                                <li><a href={service.name}>{service.name}</a></li>
                             ))
                         }
                     </ul>

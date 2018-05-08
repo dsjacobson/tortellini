@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css";
+import {Helmet} from "react-helmet";
 
 const services = require("../../services.json");
 
@@ -41,20 +42,17 @@ class Services extends React.Component {
 
                 <div className="marketing-site-three-up grid-x medium-12">
                     <div className="cell medium-4">
-                        <i className="fi-graph-bar" aria-hidden="true" width="50px" height="auto"/>
                         <img src={this.setService().content.secondaryServices.serviceImage1} alt=""/>
                         <h3 className="marketing-site-three-up-title">{this.setService().content.secondaryServices.secServiceOne}</h3>
                         <p className="marketing-site-three-up-desc">{this.setService().content.secondaryServices.secDescriptionOne}</p>
                     </div>
                 
                     <div className="cell medium-4">
-                        <i className={this.setService().content.secondaryServices.secIconTwo} aria-hidden="true"/>
                         <img src={this.setService().content.secondaryServices.serviceImage2} alt=""/>
                         <h3 className="marketing-site-three-up-title">{this.setService().content.secondaryServices.secServiceTwo}</h3>
                         <p className="marketing-site-three-up-desc">{this.setService().content.secondaryServices.secDescriptionTwo}</p>
                     </div>
                     <div className="cell medium-4">
-                        <i className={this.setService().content.secondaryServices.secIconThree} aria-hidden="true"/>
                         <img src={this.setService().content.secondaryServices.serviceImage3} alt=""/>
                         <h3 className="marketing-site-three-up-title">{this.setService().content.secondaryServices.secServiceThree}</h3>
                         <p className="marketing-site-three-up-desc">{this.setService().content.secondaryServices.secDescriptionThree}</p>
@@ -65,7 +63,21 @@ class Services extends React.Component {
                         <button className="cta-button round button">Contact Us</button>
                     </div>
 
+                {/*Dynamically updates title tag and meta data in head section */}
+                <div className="application">
+                    <Helmet>
+                        <meta charSet="utf-8" />
+                        <title>{this.setService().name} : Tortellini</title>
+                        <link rel="canonical" href={this.setService().name} />
+                    </Helmet>
+                </div>
+
+
+
+
             </div>
+
+
         )
     }
 }

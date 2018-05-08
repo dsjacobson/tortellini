@@ -21,9 +21,9 @@ const Home = () => (
                     services.map((service) => (
                         <div className="feature-section cell small-12 medium-4">
                             <i className={service.icon} aria-hidden="true"/><br/>
-                            <h4 className="marketing-site-three-up-title"><a href={"/services/" + service.url}>{service.name}</a></h4>
+                            <h4 className="marketing-site-three-up-title"><a href={"/services/" + service.name}>{service.name}</a></h4>
                             <p className="marketing-site-three-up-desc">{service.description}</p>
-                            <a href={"/services/" + service.url} className="round button">Learn More</a>
+                            <a href={"/services/" + service.name} className="round button">Learn More</a>
                         </div>
                     ))
                 }
@@ -34,7 +34,7 @@ const Home = () => (
             {
                 caseStudies.map((study) => (
                     <div className="tech-section cell small-12 medium-3">
-                        <a href="/casestudies/{study.name}"><img src={study.image} alt={study.name} aria-hidden="true"/></a>
+                        <a href={"/casestudies/" + study.name}><img src={study.image} alt={study.name} aria-hidden="true"/></a>
                         <span><h5>{study.name}</h5></span>
                     </div>
                 ))

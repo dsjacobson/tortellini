@@ -1,5 +1,6 @@
 import React from "react";
 import "./Blog.css";
+import {Helmet} from "react-helmet";
 
 const blogs = require("../../blogPosts.json");
 
@@ -33,22 +34,31 @@ class Blog extends React.Component {
 
 			<div>
 				<div className="case-studies-header">
-					<h1 className="case-stdy-title">Blog Posts</h1>
+					<h1 className="case-stdy-title">Tortellini Blog</h1>
 					<img src={blogs[0].backgroundImage} alt=""/>
 				</div>
 
-			<section>
-				{
-			            blogs.map((blog) => (
-		                <div className="feature-section cell small-12 medium-4">
-		                    <img src={blog.image} aria-hidden="true"/>
-		                    <h4 className="marketing-site-three-up-title"><a href="/">{blog.name}</a></h4>
-		                    <br/>
-		                    <p className="marketing-site-blog-three-up-desc">{blog.shortDesc}</p>
-		                </div>
-		            ))
-	        	}
-	        </section>
+				<section>
+					{
+				            blogs.map((blog) => (
+			                <div className="feature-section cell small-12 medium-4">
+			                    <img src={blog.image} aria-hidden="true"/>
+			                    <h4 className="marketing-site-three-up-title"><a href="/">{blog.name}</a></h4>
+			                    <br/>
+			                    <p className="marketing-site-blog-three-up-desc">{blog.shortDesc}</p>
+			                </div>
+			            ))
+		        	}
+		        </section>
+
+	            {/*Dynamically updates title tag and meta data in head section */}
+	            <div className="application">
+	                <Helmet>
+	                    <meta charSet="utf-8" />
+	                    <title>Digital Marketing Blog : Tortellini</title>
+	                    <link rel="canonical" href="/blog/" />
+	                </Helmet>
+	            </div>
 
 			</div>
 
