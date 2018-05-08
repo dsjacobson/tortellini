@@ -18,6 +18,7 @@ const Nav = () => (
             <div id="topbar-responsive" className="topbar-responsive-links">
                 <div className="top-bar-right">
                     <ul className="menu simple vertical medium-horizontal">
+                        <li><a href="/">Home</a></li>
                         <li>
                             <ul className="dropdown menu" data-dropdown-menu>
                                 <li>
@@ -34,7 +35,7 @@ const Nav = () => (
                         </li>
                         <li><a href="/team">Team</a></li>
 
-                    <li><a href="/blog">Blog</a></li>
+                        <li><a href="/blog">Blog</a></li>
                     </ul>
                 </div>
             </div>

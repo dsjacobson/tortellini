@@ -1,6 +1,6 @@
 [
   {
-    "name": "Blog1",
+    "name": "Digital Marketing 101",
     "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://picsum.photos/200/200?image=201",
     "backgroundImage": "https://picsum.photos/1900/300?image=249",
@@ -14,10 +14,10 @@
     }
   },
   {
-    "name": "Blog Post 2",
+    "name": "Increase Traffic with SEO",
     "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://picsum.photos/200/200?image=366",
-    "backgroundImage": "http://via.placeholder.com/1900x300",
+    "backgroundImage": "https://picsum.photos/1900/300?image=249",
     "bodyContent": {
       "subheadingOne": "First Sub Heading",
       "pOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
@@ -28,10 +28,10 @@
     }
   },
   {
-    "name": "Blog Post 3",
+    "name": "How to Generate Email Leads",
     "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://picsum.photos/200/200?image=370",
-    "backgroundImage": "http://via.placeholder.com/1900x300",
+    "backgroundImage": "https://picsum.photos/1900/300?image=249",
     "bodyContent": {
       "subheadingOne": "First Sub Heading",
       "pOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
@@ -42,10 +42,10 @@
     }
   },
   {
-    "name": "Blog Post 4",
+    "name": "Developing Applications Using React",
     "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://picsum.photos/200/200?image=48",
-    "backgroundImage": "http://via.placeholder.com/1900x300",
+    "backgroundImage": "https://picsum.photos/1900/300?image=249",
     "bodyContent": {
       "subheadingOne": "First Sub Heading",
       "pOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",

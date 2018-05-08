@@ -32,8 +32,11 @@ class Services extends React.Component {
                     <img src={this.setService().backgroundImage} alt=""/>
                 </div>
 
-                <div className="service-content">
-                    <p className="">{this.setService().content.sectionContent}</p>
+                <div className="service-content grid-x medium-12">
+                    <h2 className="service-content">{this.setService().content.sectionTitle}</h2>
+                    <p className="service-content">{this.setService().content.sectionContent}</p>
+                    <h3 className="service-content">{this.setService().content.titleTwo}</h3>
+                    <p className="service-content">{this.setService().content.contentTwo}</p>
                 </div>
 
                 <div className="marketing-site-three-up grid-x medium-12">

@@ -9,28 +9,27 @@ const socialMedia = require("../../socialMedia.json");
 const Footer = () => (
     <footer className="marketing-site-footer grid-x medium-12">
         <div className="medium-unstack grid-x medium-12">
-            <div className="cell medium-12">
-                <a href="#">Back to Top</a>
-            </div>
             <div className="cell medium-3">
                 <h4 className="marketing-site-footer-name">Tortellini</h4>
                 <ul className="menu marketing-site-footer-links">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/services">Services</a></li>
+                    <li><a href="/services/service1">Services</a></li>
                     <li><a href="/team">Team</a></li>
                     <li><a href="/casestudies">Case Studies</a></li>
                     <li><a href="/blog">Blog</a></li>
                 </ul>
             </div>
             <div className="cell medium-3">
-                <a href="/services">Services</a>
-                <ul className="menu marketing-site-footer-services">
-                    {
-                        services.map((service)=>{
-                            <li><a href="/services/{service.name}">{service.name}</a></li>
-                        })
-                    }
-                </ul>
+                <h4>Services</h4>
+                <div>
+                    <ul className="menu marketing-site-footer-services">
+                        {
+                            services.map((service)=> (
+                                <li><a href="/services/{service.name}">{service.name}</a></li>
+                            ))
+                        }
+                    </ul>
+                </div>
             </div>
 
             {/*Footer contact info with schema.org markup for SEO*/}
@@ -51,6 +50,7 @@ const Footer = () => (
                 </ul>
             </div>
             <div className="cell medium-3">
+                <h4>Follow Us</h4>
                 <ul className="menu marketing-site-footer-menu-social simple grid-x medium-12">
                     {
                         socialMedia.map((media)=>(
