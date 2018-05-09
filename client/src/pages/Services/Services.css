@@ -4,10 +4,14 @@
 }
 
 .cta-bar {
-	border: solid;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.cta-bar h5 {
+    color: #1779ba;
+}
 
 h3 {
 	text-align: center;
@@ -130,5 +134,103 @@ h3 {
 
 .marketing-site-features-subheadline {
     margin-bottom: 2rem;
+    text-align: center;
+}
+
+.service-content {
+    text-align: center;
+    background-color: #2c3840;
+    color: white;
+    padding: 5px 100px 5px 100px;
+}
+
+.service-content h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service-content h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service-content p {
+    margin-bottom: 40px;
+}
+
+
+/*hero*/
+.service-header-serviceOne {
+    background: url("https://picsum.photos/1900/400?image=0") top right no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.service-header-serviceTwo {
+    background: url("https://picsum.photos/1900/400?image=180") top right no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.service-header-serviceThree {
+    background: url("https://picsum.photos/1900/400?image=48") top right no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.service-header-serviceOne h1 {
+    color: white;
+    float: center;
+    padding-left: 100px;
+}
+
+.service-header-serviceTwo h1 {
+    color: white;
+    float: center;
+    padding-left: 100px;
+}
+
+.service-header-serviceThree h1 {
+    color: white;
+    float: center;
+    opacity: 5;
+    padding-left: 100px;
+}
+
+.marketing-site-three-up h3 {
+    color: #1779ba;
+}
+
+.service-title {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
     text-align: center;
 }

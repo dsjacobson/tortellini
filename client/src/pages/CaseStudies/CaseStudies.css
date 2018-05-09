@@ -1,0 +1,71 @@
+.odd-case {
+	background-color: #2c3840;
+	color: white;
+}
+
+
+.case-studies-header-caseStudyOne {
+    background: url("https://picsum.photos/1900/400?image=48") top right no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.case-studies-header-caseStudyTwo {
+    background: url("https://picsum.photos/1900/400?image=201") top right no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.case-studies-header-caseStudyThree {
+    background: url("https://picsum.photos/1900/400?image=366") top right no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.case-studies-header-caseStudyFour {
+    background: url("https://picsum.photos/1900/400?image=249") top right no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.case-stdy-title {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}

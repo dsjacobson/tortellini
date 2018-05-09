@@ -12,16 +12,17 @@ const Nav = () => (
                     <button className="menu-icon" type="button" data-toggle="topbar-responsive"/>
                 </span>
 
-                <a className="topbar-responsive-logo" href="/"><i class="fi-list"/><strong>Tortellini</strong></a>
+                <a className="topbar-responsive-logo" href="/"><strong>Tortellini</strong></a>
             </div>
 
             <div id="topbar-responsive" className="topbar-responsive-links">
                 <div className="top-bar-right">
                     <ul className="menu simple vertical medium-horizontal">
+                        <li><a href="/">Home</a></li>
                         <li>
                             <ul className="dropdown menu" data-dropdown-menu>
                                 <li>
-                                    <a href="/services">Services</a>
+                                    <a href="#">Services</a>
                                     <ul className="menu">
                                         {
                                             services.map((service)=>(
@@ -34,7 +35,7 @@ const Nav = () => (
                         </li>
                         <li><a href="/team">Team</a></li>
 
-                    <li><a href="/blog">Blog</a></li>
+                        <li><a href="/blog">Blog</a></li>
                     </ul>
                 </div>
             </div>

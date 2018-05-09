@@ -1,33 +1,95 @@
 [
   {
-    "name": "Case Study 1",
+    "name": "Technical Site Audit",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://picsum.photos/300/300?image=48",
-    "backgroundImage": "http://via.placeholder.com/1900x300",
-    "icon": "fi-graph-trend"
+    "backgroundImage": "https://picsum.photos/1900/300?image=2",
+    "titleTag" : "Technical Site Audit Case Study",
+    "metaDescription" : "Learn how we increased traffic by over 200% for a client after performing a technical SEO audit and fixing their site issues.",
+    "cssBackground": "caseStudyOne",
+    "icon": "fi-graph-trend",
+    "workDoneImage": "https://picsum.photos/100/100?image=2",
+    "challengesImage": "https://picsum.photos/100/100?image=180",
+    "resultsImage": "https://picsum.photos/100/100?image=201",
+    "workDone": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "workDoneTwo": "Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi.",
+    "workDoneThree": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
+    "challenges": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "challengesTwo": "Sed ut perspiciatis unde omnis iste natus error sit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint amet, consectetur adipisicing elit.",
+    "challengesThree": "Lorem ipsum dolor sit amet, Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, iste natus error sit voluptatem ",
+    "results": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "resultsTwo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus Sed ut perspiciatis unde omnis iste natus error sit Lorem ipsum dolor sit amet Sed ut perspiciatis unde omnis iste natus error sit Lorem ipsum dolor sit amet",
+    "resultsThree": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
   },
+
   
   {
-    "name": "Case Study 2",
+    "name": "Responsive Web Design",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://picsum.photos/300/300?image=201",
-    "backgroundImage": "http://via.placeholder.com/1900x300",
-    "icon": "fi-graph-trend"
+    "backgroundImage": "https://picsum.photos/1900/300?image=201",
+    "titleTag" : "Responsive Web Design Case Study",
+    "metaDescription" : "Check out the Responsive Web Design case study we put together after helping a client redesign their site.",
+    "cssBackground": "caseStudyTwo",
+    "icon": "fi-graph-trend",
+    "workDoneImage": "https://picsum.photos/100/100?image=2",
+    "challengesImage": "https://picsum.photos/100/100?image=180",
+    "resultsImage": "https://picsum.photos/100/100?image=201",
+    "workDone": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "workDoneTwo": "Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi.",
+    "workDoneThree": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
+    "challenges": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "challengesTwo": "Sed ut perspiciatis unde omnis iste natus error sit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint amet, consectetur adipisicing elit.",
+    "challengesThree": "Lorem ipsum dolor sit amet, Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, iste natus error sit voluptatem ",
+    "results": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "resultsTwo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus Sed ut perspiciatis unde omnis iste natus error sit Lorem ipsum dolor sit amet Sed ut perspiciatis unde omnis iste natus error sit Lorem ipsum dolor sit amet",
+    "resultsThree": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
   },
 
+
   {
-    "name": "Case Study 3",
+    "name": "Content Marketing",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://picsum.photos/300/300?image=366",
-    "backgroundImage": "http://via.placeholder.com/1900x300",
-    "icon": "fi-graph-trend"
+    "backgroundImage": "https://picsum.photos/1900/300?image=366",
+    "titleTag" : "Content Marketing Case Study",
+    "metaDescription" : "Our content marketing efforts greatly increased web conversions for one of our clients. Read all about it in our case study.",
+    "cssBackground": "caseStudyThree",
+    "icon": "fi-graph-trend",
+    "workDoneImage": "https://picsum.photos/100/100?image=2",
+    "challengesImage": "https://picsum.photos/100/100?image=180",
+    "resultsImage": "https://picsum.photos/100/100?image=201",
+    "workDone": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "workDoneTwo": "Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi.",
+    "workDoneThree": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
+    "challenges": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "challengesTwo": "Sed ut perspiciatis unde omnis iste natus error sit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint amet, consectetur adipisicing elit.",
+    "challengesThree": "Lorem ipsum dolor sit amet, Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, iste natus error sit voluptatem ",
+    "results": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "resultsTwo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus Sed ut perspiciatis unde omnis iste natus error sit Lorem ipsum dolor sit amet Sed ut perspiciatis unde omnis iste natus error sit Lorem ipsum dolor sit amet",
+    "resultsThree": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
   },
 
   {
-    "name": "Case Study 4",
+    "name": "Email Marketing Campaign",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "image": "https://picsum.photos/300/300?image=249",
-    "backgroundImage": "http://via.placeholder.com/1900x300",
-    "icon": "fi-graph-trend"
+    "backgroundImage": "https://picsum.photos/1900/300?image=249",
+    "titleTag" : "Email Marketing Campaign Case Study",
+    "metaDescription" : "Our email marketing campaigns increased traffic 20% for one of our clients. Learn more about it in this case study.",
+    "cssBackground": "caseStudyFour",
+    "icon": "fi-graph-trend",
+    "workDoneImage": "https://picsum.photos/100/100?image=2",
+    "challengesImage": "https://picsum.photos/100/100?image=180",
+    "resultsImage": "https://picsum.photos/100/100?image=201",
+    "workDone": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "workDoneTwo": "Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi.",
+    "workDoneThree": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
+    "challenges": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "challengesTwo": "Sed ut perspiciatis unde omnis iste natus error sit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint amet, consectetur adipisicing elit.",
+    "challengesThree": "Lorem ipsum dolor sit amet, Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, iste natus error sit voluptatem ",
+    "results": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
+    "resultsTwo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus Sed ut perspiciatis unde omnis iste natus error sit Lorem ipsum dolor sit amet Sed ut perspiciatis unde omnis iste natus error sit Lorem ipsum dolor sit amet",
+    "resultsThree": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
   }
 ]

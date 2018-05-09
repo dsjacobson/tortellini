@@ -1,6 +1,6 @@
 /*hero*/
 .marketing-site-hero {
-    background: url("https://images.pexels.com/photos/8264/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb") top right no-repeat;
+    background: url("https://picsum.photos/1900/300?image=0") top right no-repeat;
     height: 65vh;
     background-size: cover;
     display: -webkit-flex;
@@ -26,6 +26,7 @@
 
 .marketing-site-hero-content h1 {
     font-size: 32px;
+    color: white;
 }
 
 .marketing-site-hero-content .button.round {
@@ -106,7 +107,7 @@
 
 .marketing-site-features-headline {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .marketing-site-features-subheadline {
@@ -115,9 +116,10 @@
 }
 
 .tech-section h5 {
-    background-color: #3f68fc;
+    background-color: #1670ac;
     width: 300px;
     display: inline-block;
+    color: white;
 }
 
 .marketing-site-three-up-desc {
@@ -125,9 +127,32 @@
 }
 
 .marketing-site-features-case-studies {
-    background-color: #656668;
+    background-color: #2c3840;
 }
 
 .feature-section i {
     font-size: 100px;
+}
+
+.marketing-site-hero p {
+    color: #1779ba;
+    font-size: 20px;
+
+}
+
+.marketing-site-features-case-studies h2 {
+    color: white;
+}
+
+.tech-section h4 {
+    color: #1779ba;
+}
+
+.blog-headline {
+    color: #1779ba;
+    font-size: 30px;
+}
+
+.subheader {
+    color: #1779ba;
 }

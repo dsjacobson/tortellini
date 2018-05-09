@@ -3,6 +3,10 @@
     padding: 1rem 1.5rem;
 }
 
+.topbar-responsive-links a {
+    margin-right: 20px;
+}
+
 .topbar-responsive .topbar-responsive-logo {
     color: #fefefe;
     vertical-align: middle;

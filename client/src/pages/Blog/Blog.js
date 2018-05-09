@@ -1,5 +1,6 @@
 import React from "react";
 import "./Blog.css";
+import {Helmet} from "react-helmet";
 
 const blogs = require("../../blogPosts.json");
 
@@ -32,23 +33,41 @@ class Blog extends React.Component {
 		return(
 
 			<div>
-				<div className="case-studies-header">
-					<h1 className="case-stdy-title">Blog Posts</h1>
-					<img src={blogs[0].backgroundImage} alt=""/>
+				<div className="blog-header">
+					<h1 className="case-stdy-title">Tortellini Blog</h1>
 				</div>
 
-			<section>
-				{
-			            blogs.map((blog) => (
-		                <div className="feature-section cell small-12 medium-4">
-		                    <img src={blog.image} aria-hidden="true"/>
-		                    <h4 className="marketing-site-three-up-title"><a href="/">{blog.name}</a></h4>
-		                    <br/>
-		                    <p className="marketing-site-blog-three-up-desc">{blog.shortDesc}</p>
-		                </div>
-		            ))
-	        	}
-	        </section>
+				<section>
+					{
+				            blogs.map((blog) => (
+			                <div className="grid-x medium-12">
+			                	<div className="cell medium-3">
+			                	</div>
+				                <div className="feature-section-blog grid-x medium-6">
+					                <div className="feature-section-blog cell small-12 cell medium-3">    
+					                    <img src={blog.image} aria-hidden="true"/>
+					                </div>
+					                <div className="blog-title-descr cell small-12 medium-6">    
+					                    <h4 className="marketing-site-three-up-title"><a href="/">{blog.name}</a></h4>
+					                    <p className="marketing-site-blog-three-up-desc">{blog.shortDesc}</p>
+					                </div>
+					            </div>
+			                	<div className="cell medium-3">
+			                	</div>				                
+				            </div>
+			            ))
+		        	}
+		        </section>
+
+	            {/*Dynamically updates title tag and meta data in head section */}
+	            <div className="application">
+	                <Helmet>
+	                    <meta charSet="utf-8" />
+	                    <title>Digital Marketing Blog : Tortellini</title>
+	                    <meta name="description" content="Check out our blog to learn about digital marketing trends, tips and hacks to increase web traffic." />
+	                    <link rel="canonical" href="/blog" />
+	                </Helmet>
+	            </div>
 
 			</div>
 
