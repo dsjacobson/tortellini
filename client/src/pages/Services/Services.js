@@ -95,9 +95,6 @@ class Services extends React.Component {
                     </Helmet>
                 </div>
 
-
-
-
             </div>
 
 

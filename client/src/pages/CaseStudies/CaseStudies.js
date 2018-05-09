@@ -34,9 +34,8 @@ class CaseStudies extends React.Component {
 	render() {
 		return(
 			<div>
-				<div className="case-studies-header">
+				<div className={"case-studies-header-" + this.setCaseStudies().cssBackground}>					
 					<h1 className="case-stdy-title">{this.setCaseStudies().name}</h1>
-					<img src={this.setCaseStudies().backgroundImage} alt=""/>
 				</div>
 		        
                 <div className="marketing-site-three-up case-study-three grid-x medium-12">
@@ -57,7 +56,6 @@ class CaseStudies extends React.Component {
                         <p className="marketing-site-three-up-desc">{this.setCaseStudies().results}</p>
                     </div>
                 </div>
-
 
 	            {/*Dynamically updates title tag and meta data in head section */}
 	            <div className="application">

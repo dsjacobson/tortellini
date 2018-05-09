@@ -42,8 +42,8 @@
         "ctaMessage": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet",
         "secondaryServices": {
         "serviceImage1": "https://picsum.photos/100/100?image=2",
-        "serviceImage2": "https://picsum.photos/100/100?image=180",
-        "serviceImage3": "https://picsum.photos/100/100?image=201",
+        "serviceImage2": "https://picsum.photos/100/100?image=201",
+        "serviceImage3": "https://picsum.photos/100/100?image=366",
           "secServiceOne": "Technical Site Audits",
           "secIconOne": "fi fi-graph-trend",
           "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
@@ -70,9 +70,9 @@
         "contentTwo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
         "ctaMessage": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet",
         "secondaryServices": {
-        "serviceImage1": "https://picsum.photos/100/100?image=2",
-        "serviceImage2": "https://picsum.photos/100/100?image=180",
-        "serviceImage3": "https://picsum.photos/100/100?image=201",
+        "serviceImage1": "https://picsum.photos/100/100?image=1",
+        "serviceImage2": "https://picsum.photos/100/100?image=8",
+        "serviceImage3": "https://picsum.photos/100/100?image=370",
           "secServiceOne": "Responsive Web Design",
           "secIconOne": "fi fi-graph-trend",
           "secDescriptionOne": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",

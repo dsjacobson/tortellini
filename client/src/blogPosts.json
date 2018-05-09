@@ -2,7 +2,7 @@
   {
     "name": "Digital Marketing 101",
     "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-    "image": "https://picsum.photos/200/200?image=201",
+    "image": "https://picsum.photos/200/200?image=1",
     "backgroundImage": "https://picsum.photos/1900/300?image=249",
     "bodyContent": {
       "subheadingOne": "First Sub Heading",
@@ -16,7 +16,7 @@
   {
     "name": "Increase Traffic with SEO",
     "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-    "image": "https://picsum.photos/200/200?image=366",
+    "image": "https://picsum.photos/200/200?image=8",
     "backgroundImage": "https://picsum.photos/1900/300?image=249",
     "bodyContent": {
       "subheadingOne": "First Sub Heading",

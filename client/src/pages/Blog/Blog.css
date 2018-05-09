@@ -14,7 +14,7 @@ section {
 .blog-header {
     background: url("https://picsum.photos/1900/300?image=249") top right no-repeat;
     height: 300px;
-    width: 1900px;
+    width: 100%;
     background-size: cover;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -22,13 +22,18 @@ section {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    position: relative;
 }
 
 .blog-header h1 { 
     color: white;
-    float: center;
-    padding-left: 100px;
-}
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 50%;
+    width: 100%;
+
+    }
 
 .blog-title-descr {
 	margin-top: 12px;
