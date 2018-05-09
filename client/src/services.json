@@ -5,6 +5,8 @@
     "icon": "fi fi-monitor",
     "backgroundImage": "https://picsum.photos/1900/300?image=0",
     "cssBackground": "serviceOne",
+    "titleTag" : "Digital Marketing Services",
+    "metaDescription" : "Our digital marketing services help drive traffic and revenue to your business through a streamlined approach. We offer SEO, email marketing and content creation services.",
     "content": {
       "sectionTitle": "Increase Web Traffic with Effective Digital Marketing",
       "sectionContent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
@@ -34,6 +36,8 @@
       "icon": "fi-graph-bar",
       "backgroundImage": "https://picsum.photos/1900/300?image=8",
       "cssBackground": "serviceTwo",
+      "titleTag" : "Search Engine Optimization Consulting",
+      "metaDescription" : "Increase oragnic traffic through our SEO services. We provide technical site audits, SEO optimized content creation and link building services.",
       "content": {
         "sectionTitle": "Increase Organic Traffic Through SEO",
         "sectionContent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",
@@ -63,6 +67,8 @@
       "icon": "fi fi-html5",
       "backgroundImage": "https://picsum.photos/1900/300?image=48",
       "cssBackground": "serviceThree",
+      "titleTag" : "Web Development & Design Services",
+      "metaDescription" : "Check out our web development services and let us create a custom website for your business.",
       "content": {
         "sectionTitle": "Increase Conversions With A Stylish Custom Website",
         "sectionContent": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, Lorem ipsum dolor sit amet.",

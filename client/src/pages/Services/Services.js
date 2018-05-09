@@ -90,8 +90,9 @@ class Services extends React.Component {
                 <div className="application">
                     <Helmet>
                         <meta charSet="utf-8" />
-                        <title>{this.setService().name} : Tortellini</title>
-                        <link rel="canonical" href={this.setService().name} />
+                        <title>{this.setService().titleTag} : Tortellini</title>
+                        <meta name="description" content={this.setService().metaDescription} />
+                        <link rel="canonical" href={"/services/" + this.setService().name} />
                     </Helmet>
                 </div>
 

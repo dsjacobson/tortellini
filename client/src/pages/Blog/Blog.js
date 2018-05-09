@@ -64,7 +64,8 @@ class Blog extends React.Component {
 	                <Helmet>
 	                    <meta charSet="utf-8" />
 	                    <title>Digital Marketing Blog : Tortellini</title>
-	                    <link rel="canonical" href="/blog/" />
+	                    <meta name="description" content="Check out our blog to learn about digital marketing trends, tips and hacks to increase web traffic." />
+	                    <link rel="canonical" href="/blog" />
 	                </Helmet>
 	            </div>
 
