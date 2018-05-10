@@ -1,6 +1,7 @@
 [
   {
     "name": "Digital Marketing",
+    "nameTwo": "Digital%20Marketing",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
     "icon": "fi fi-monitor",
     "backgroundImage": "https://picsum.photos/1900/300?image=0",
@@ -32,6 +33,7 @@
 
   {
       "name": "Search Engine Optimization",
+      "nameTwo": "Search%20Engine%20Optimization",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
       "icon": "fi-graph-bar",
       "backgroundImage": "https://picsum.photos/1900/300?image=8",
@@ -63,6 +65,7 @@
 
   {
       "name": "Web Development",
+      "nameTwo": "Web%20Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
       "icon": "fi fi-html5",
       "backgroundImage": "https://picsum.photos/1900/300?image=48",

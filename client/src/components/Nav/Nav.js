@@ -26,7 +26,7 @@ const Nav = () => (
                                     <ul className="menu">
                                         {
                                             services.map((service)=>(
-                                                <li><a href={"/services/" + service.name}>{service.name}</a></li>
+                                                <li><a href={`/services/${service.name}`}>{service.name}</a></li>
                                             ))
                                         }
                                     </ul>

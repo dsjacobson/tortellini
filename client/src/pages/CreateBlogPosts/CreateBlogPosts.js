@@ -1,10 +1,11 @@
 import React from "react";
 import "./CreateBlogPosts.css";
+import API from "../../utils/API";
 
 const CreateBlogPost = require("../../blogPosts.json");
 
 
-class CreateBlogPosts extends Component {
+class Blogs extends Component {
   state = {
     blogs: [],
     title: "",
@@ -12,11 +13,42 @@ class CreateBlogPosts extends Component {
     content: ""
   };
 
+  componentDidMount() {
+  	this.loadBlogs();
+  }
+
+  loadBlogs = () => {
+  	API.getBlogs()
+  		.then(res =>
+  			this.setState({blogs: res.data, title: "", author: "", content: ""})
+  			)
+  		.catch(err => console.log(err));
+  }
+
+  deleteBlog = id => {
+  	API.deleteBlog(id)
+  		.then(res => this.loadBlogs())
+  		.catch(err => console.log(err));
+  }
+
   handleInputChange = event => {
     const { name, value } = event.target;
     this.setState({
       [name]: value
     });
+  };
+
+  handleFormSubmit = event => {
+  	event.PreventDefault();
+  	if(this.state.title && this.state.author) {
+  		API.saveBlog({
+  			title: this.state.title,
+  			author: this.state.author,
+  			content: this.state.content
+  		})
+  			.then(res => this.loadBlogs())
+  			.catch(err => console.log(err));
+  	}
   };
 
 	render() {
