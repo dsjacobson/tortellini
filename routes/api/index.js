@@ -1,10 +1,8 @@
 const router = require("express").Router();
-const generalRoute = require("./general");
-const supportRoute = require("./support");
-const blogRoute = require("./blogs");
+const blogRoutes = require("./blogs");
 
 
 //Routes
-router.use("/blogs/{id}", blogRoute);
+router.use("/blogs", blogRoutes);
 
 module.exports = router;

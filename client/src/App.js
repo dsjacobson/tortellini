@@ -10,6 +10,7 @@ import Blogs from "./pages/Blogs";
 import "./App.css"
 import Blog from "./pages/Blog";
 import CreateBlogPosts from "./pages/CreateBlogPosts";
+import Detail from "./pages/Detail";
 
 const App = () => (
 
@@ -26,7 +27,7 @@ const App = () => (
 
                     <Route exact path="/casestudies/:name" component={CaseStudies} />
 
-                    <Route exact path="/blogs/:id" component={Blogs} />
+                    <Route exact path="/blogs/:id" component={Detail} />
 
                     <Route exact path="/blog" component={Blog} />
 

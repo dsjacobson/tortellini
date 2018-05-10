@@ -46,7 +46,7 @@ const Home = () => (
             {
                 blogPosts.map((post) => (
                     <div className="tech-section cell small-12 medium-4">
-                        <a href="/blog/{post._id}"><h4>{post.title}</h4><p>{post.text}</p></a>
+                        <a href="/blogs/{post._id}"><h4>{post.title}</h4><p>{post.text}</p></a>
 
                         <img src={post.image} alt=""/>
                         <h4 className="marketing-site-three-up-title">{post.name}</h4>

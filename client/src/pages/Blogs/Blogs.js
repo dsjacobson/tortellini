@@ -29,10 +29,15 @@ class blogPosts extends React.Component {
 		}
 	};
 
+	  state = {
+    blog: {}
+  };
+
+
 
 	render() {
 		return(
-			<div className="blogPosts">
+			<div className="grid-x">
 				<div>
 					<h1 className="blog-title">{this.setBlogPosts().name}</h1>
 					<img src={this.setBlogPosts().image} alt="case-study"/>
