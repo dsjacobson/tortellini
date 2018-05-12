@@ -1,22 +1,33 @@
 import React from "react";
 import "./Blog.css";
 import {Helmet} from "react-helmet";
-import API from "../../utils/API";
-import BlogPost from "../../components/BlogPost";
 
 const blogs = require("../../blogPosts.json");
 
 class Blog extends React.Component {
-	state = {
-    	blog: {}
-  	};
 
-	componentDidMount() {
-	    API.getBlogPost(this.props.match.params.id)
-	      .then(res => this.setState({ blog: res.data }))
-	      .catch(err => console.log(err));
- 	}
+	setBlog = () => {
 
+		const name = this.props.match.params.name;
+		let blog ="";
+
+		if (name === blogs[0].name) {
+			blog = blogs[0];
+			return blog;
+		}
+		else if (name === blogs[1].name) {
+			blog = blogs[1];
+			return blog;
+		}
+		else if (name === blogs[2].name) {
+			blog = blogs[2];
+			return blog;
+		}
+		else if (name === blogs[3].name) {
+			blog = blogs[3];
+			return blog;
+		}
+	};
 
 	render() {
 		return(
@@ -28,7 +39,7 @@ class Blog extends React.Component {
 
 				<section>
 					{
-				        this.state.blog((blog) => (
+				            blogs.map((blog) => (
 			                <div className="grid-x medium-12">
 			                	<div className="cell medium-3">
 			                	</div>
@@ -48,28 +59,7 @@ class Blog extends React.Component {
 		        	}
 		        </section>
 
-
-
-
-			    <div className="medium-12">
-	                {
-	                    this.state.blog.map((blogPost) => (
-	                        <Blog
-	                        	id = {blogPost._id}
-	                        	author = {blogPost.author}
-	                        	date = {blogPost.date}
-	                        	title = {blogPost.title}
-	                        	content = {blogPost.content}
-	                        	image = {blogPost.image}
-	                        />
-	                    ))
-	                }
-	        	</div>
-
-
-
-
-
+	            {/*Dynamically updates title tag and meta data in head section */}
 	            <div className="application">
 	                <Helmet>
 	                    <meta charSet="utf-8" />
